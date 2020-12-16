@@ -1,0 +1,132 @@
+.auth-form-wrapper{
+    width: 50%;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    min-height: 250px;
+    border-radius: 5px;
+}
+.auth-form-wrapper h1{
+    text-align: center;
+}
+input{
+    border: none;
+    width: 300px;
+    display: block;
+    margin-bottom: 20px;
+    height: 30px;
+    border-radius: 4px;
+   
+}
+.input-wrapper{
+    text-align: -webkit-center;
+}
+input.input-text{
+    color: #8b8787;
+    padding: 10px;
+}
+
+#logInButton{
+    background-color: #4CAF50;
+    min-height: 50px;
+    width:200px;
+    color: white;
+    text-transform: uppercase;
+}
+#signUpButton{
+    background-color: #dd4b39;
+    min-height: 50px;
+    width:200px;
+    color: white;
+    text-transform: uppercase;
+}
+#signUpForm{
+    background-color: #dd4b39;
+    min-height: 50px;
+    width:200px;
+    color: white;
+    text-transform: uppercase;
+}
+#name{
+    display: none;
+}
+#signup-h1{
+    display: none;
+}
+#signUpForm{
+    display: none;
+}
+.grocery-list-wrapper{
+    position: absolute;
+    width: 60%;
+    max-height: 100%;
+    margin-bottom: 5%;
+    left: 20%;
+    top:5%;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px red;
+}
+
+#log-out-btn{
+    float: right;
+    margin: 10px;
+    width: 100px;
+}
+.add-task-wrapper{
+    margin-top: 100px;
+    text-align: -webkit-center;
+}
+#add-task{
+    background-color: #4CAF50;
+    color: white;
+    height: 30px;
+}
+#task-input{
+    border-bottom: 1px solid #4CAF50;
+    height: 40px;
+}
+table {
+
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+   
+
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .grocery-checkbox{
+      width: 20px;
+  }
+  .table-wrapper{
+      overflow: scroll;
+      height: 300px;
+  }
+  .delete-edit-wrapper{
+      padding-left: 50px;
+      display: none;
+  }
+  .edit-delete{
+      display: inline-block;
+      margin-left: 30px;
+  }
+  #edit-btn{
+      background-color: #4CAF50;
+      color: white;
+      width: 60px;
+  }
+  #delete-btn{
+      background-color: #dd4b39;
+      color: white;
+      width: 60px;
+  }

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <title>
+    </title>
+    <body>
+        <div class="wrapper">
+            <div class="auth-form-wrapper">
+                <h1 id="login-h1">LogIn</h1>
+                <h1 id="signup-h1">SignUp</h1>
+                <div class="input-wrapper">
+                    <input type="text" class="input-text" id="name" placeholder="Name" required/>
+                    <input type="email" class="input-text" id="email" name="email" placeholder="Email" required/>
+                    <input type="password"  class="input-text" id="password"  placeholder="Password" required/>
+                    <input onclick="logIn()" type="button" value="Login" id="logInButton"/>
+                    <input onclick='signUp()' type="button" value="SignUp" id="signUpForm"/>
+                    <input onclick='signUpForm()' type="button" value="SignUp" id="signUpButton"/>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="index.css">
+    </body>
+</html>

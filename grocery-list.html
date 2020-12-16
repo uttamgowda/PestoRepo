@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <title>
+    </title>
+    <body>
+        <div class="wrapper">
+           <div class="grocery-list-wrapper">
+                <input onclick="logOut()" type="button"  id="log-out-btn" value="Log out"/>
+                <div class="add-task-wrapper">
+                    <input type="text" id="task-input" placeholder="Grocery Name">
+                    <input onclick="addTask()" type="button"  id="add-task" value="Add"/>
+                </div>
+                <div class="delete-edit-wrapper">
+                    <input type="button" class="edit-delete" id="delete-btn" value="Delete"/>
+                    <input type="button" class="edit-delete" id="edit-btn" value="Edit"/>
+                </div>
+                <div class="table-wrapper">
+                    <table id="grocery-list">
+                        <tr>
+                            <th>Grocery Name</th>
+                            <th>Edit/Delete</th>
+                        </tr>
+                       
+                    </table>
+                </div>
+               
+           </div>
+           
+        </div>
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="index.css">
+    </body>
+</html>
